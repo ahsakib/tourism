@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+
+}
+.log{
+
+height: 800;
+width: auto;
+background-color: transparent;
+}
+
+.full{
+    height:100vh;
+    background-image:url("login.jpg"); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+
+height:680px ;
+width:328px ;
+background-color: #F3F4F6;
+margin-top: 35px;
+border-radius: 8px;
+margin-bottom: 40px;
+box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.15);
+
+}
+.logo{
+
+height:120px ;
+width:305px ;
+background-color: transparent;
+margin-left: 12px;
+margin-top: 20px;
+
+}
+
+.logoimg{
+
+height:70px ;
+width: 70px;
+background-image: url("first.png");
+background-size: cover;
+background-repeat: no-repeat;
+margin-left: 110px;
+
+
+
+}
+
+.logo p{
+
+color: black;
+font-size: 20px;
+font-weight: 700; 
+margin-left: 26px;
+margin-top: 10px;
+
+}
+
+.wlc{
+
+height: 40px;
+width: 305px;
+background-color: transparent;
+margin-left: 12px;
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-size: 25px;
+font-weight: 500;
+}
+
+.fb{
+
+height: 40px;
+width: 305px;
+background-color:#070575c1;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 10px;
+margin-left: 12px;
+border-radius: 5px;
+border: 1px solid #0c0b41c1;
+
+
+}
+
+.fb a {
+
+color: #FFFFFF;
+font-size: 16px;
+text-decoration: none;
+
+
+}
+
+.google{
+
+height: 40px;
+width: 305px;
+background-color:#FFFFFF;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 10px;
+margin-left: 12px;
+border-radius: 5px;
+border: 1px solid black;
+
+
+}
+
+.google a {
+
+color: black;
+font-size: 16px;
+text-decoration: none;
+
+}
+
+.container {
+
+height: 25px;
+width: 309px;
+background-color: transparent;
+margin-top: 10px;
+margin-left: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.title{
+
+color: #0000008A;
+display: grid;
+grid-template-columns: repeat(3, 0fr);
+align-items: center;
+column-gap: 1.8rem;
+justify-content: space-evenly;
+}
+
+.title::before, .title::after{
+
+content: '';
+height: 2px;
+background-color: #0000008A;
+display: block;
+width: 120px;
+}
+
+.login{
+
+height: 500px;
+width: 309px;
+background-color: transparent;
+margin-top: 40px;
+margin-left: 12px;
+}
+
+
+
+
+
+
+.e-box {
+
+height: 40px;
+width: 307px;
+background-color: #FFFFFF;
+display: flex;
+align-items: center;
+border: 1px solid #0000008A;
+border-radius: 5px;
+margin-top: 20px;
+
+}
+
+.e-logo {
+
+height: 35px;
+width: 35px;
+background-color: transparent;
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.e-text {
+
+height: 32px;
+width: 280px;
+background-color:transparent ;
+font-size: 16px;
+border-color: transparent;
+}
+
+
+
+
+.pass-box {
+
+height: 40px;
+width: 307px;
+background-color: #FFFFFF;
+display: flex;
+align-items: center;
+border: 1px solid #0000008A;
+border-radius: 5px;
+margin-top: 20px;
+
+}
+
+.pass-logo {
+
+height: 35px;
+width: 35px;
+background-color: transparent;
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+
+}
+
+.pass-text {
+
+height: 32px;
+width: 280px;
+background-color:transparent;
+font-size: 16px;
+border-color: transparent;
+}
+
+
+
+
+.btn {
+
+
+
+    height: 40px;
+    width: 280px;
+    background-color: #0716b9;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 20px;
+   
+    }
+
+.submit {
+
+font-size: 23px;
+color: #FFFFFF;
+background-color: #0716b9;
+border-color: transparent;
+}
+
+.btn:hover{
+
+background-color: #0a0c7d;
+}
+
+.submit:hover{
+
+background-color: #0a0c7d;
+font-size: x-large;
+}
+
+.msg {
+
+height: 25px;
+width: 303px;
+background-color: transparent;
+margin-left: 4px;
+margin-top: 20px;
+color: #0000008A;
+font-weight: 500;
+}
+
+.msg a{
+
+color: #0716b9;
+font-size: 15px;
+text-decoration: none;
+}
+
+.msg a:hover{
+
+color:royalblue;
+font-size:16px;
+font-weight: 700;
+}

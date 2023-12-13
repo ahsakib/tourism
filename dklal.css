@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.head{
+
+    height: 620px;
+    width: auto;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.head:hover .head-img{
+
+    transform: scale(1.2);
+    
+}
+
+.title{
+
+    height: 100px;
+    width: auto;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.title h1{
+color: darkslategrey;
+}
+
+.lal{
+
+    height:200px ;
+    width: 1200px;
+    background-color:transparent;
+    margin-left: 130px;
+    margin-top: 30px;
+  
+
+}
+
+.lal p{
+
+    color: solid black;
+    font-size: 20px;
+}
+
+.naming{
+
+    height: 70px;
+    width:auto;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.naming h2{
+    color: darkslategrey;
+    }
+
+.namep{
+
+    height: 200px;
+    width: 1200px;
+    background-color: transparent;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.namep p{
+
+    color: solid black;
+    font-size: 20px;
+}
+
+.history{
+
+    height: 70px;
+    width:auto;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.history h2{
+    color: darkslategrey;
+    }
+
+.historyp{
+        
+        height: 350px;
+        width: 1200px;
+        background-color: transparent;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    
+    .historyp p{
+    
+        color: solid black;
+        font-size: 20px;
+    }
+
+    
+    .pori{
+
+        height: 70px;
+        width:auto;
+        background-color: blanchedalmond;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .pori h2{
+        color: darkslategrey;
+        }
+    
+    .porip{
+            
+            height: 200px;
+            width: 1200px;
+            background-color: transparent;
+            margin-left: 130px;
+            margin-top: 30px;
+        }
+        
+        .porip p{
+        
+            color: solid black;
+            font-size: 20px;
+        }
+
+
+        .dekhar{
+
+            height: 70px;
+            width:auto;
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        .dekhar h2{
+            color: darkslategrey;
+            }
+        
+        .dekharp{
+                
+                height: 400px;
+                width: 1200px;
+                background-color: transparent;
+                margin-left: 130px;
+                margin-top: 30px;
+            }
+            
+            .dekharp p{
+            
+                color: solid black;
+                font-size: 20px;
+            }
+
+            .ticket{
+
+                height: 70px;
+                width:auto;
+                background-color: blanchedalmond;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            
+            .ticket h2{
+                color: darkslategrey;
+                }
+            
+            .ticketp{
+                    
+                    height: 300px;
+                    width: 1200px;
+                    background-color: transparent;
+                    margin-left: 130px;
+                    margin-top: 30px;
+                }
+                
+                .ticketp p{
+                
+                    color: solid black;
+                    font-size: 20px;
+                }
+
+                .kivabe{
+
+                    height: 70px;
+                    width:auto;
+                    background-color: blanchedalmond;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+                
+                .kivabe h2{
+                    color: darkslategrey;
+                    }
+                
+                .kivabep{
+                        
+                        height: 200px;
+                        width: 1200px;
+                        background-color: transparent;
+                        margin-left: 130px;
+                        margin-top: 30px;
+                    }
+                    
+                    .kivabep p{
+                    
+                        color: solid black;
+                        font-size: 20px;
+                    }
+    
+
+
+
+.btn {
+height: 40px;
+width: 280px;
+background-color: transparent;
+margin-top: 10px;
+margin-left: 0;
+position: absolute;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-decoration: none;
+
+}
+
+.back{
+    height: 28px;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   border-radius: 8px;
+   
+
+}
+
+.back:hover {
+ background-color: white;
+ color: blue;
+}
+
+.map{
+    height: 28px;
+    width: 150px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   border-radius: 8px;
+   
+
+}
+
+.map:hover {
+ background-color: white;
+ color: blue;
+}

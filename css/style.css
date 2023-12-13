@@ -1,0 +1,100 @@
+@charset "utf-8";
+body {
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; */
+}
+
+.card {
+	border-radius: 10px;
+	padding: 35px 26px;
+	width: 400px
+}
+
+.abt {
+	font-size: 14px
+}
+
+.inputbox {
+	margin-top: 12px;
+	position: relative
+}
+
+.inputbox input {
+	border: 2px solid #eee;
+	padding: 0 10px
+}
+
+.inputbox input:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+	border: 2px solid #0d6efd
+}
+
+.input-tag {
+	position: absolute;
+	top: 27px;
+	left: 7px;
+	width: 32px
+}
+
+.proceed button {
+	height: 50px;
+	font-size: 15px
+}
+
+.form-check-label {
+	font-size: 12px
+}
+
+.btn-primary:focus {
+	color: #fff;
+	background-color: #025ce2;
+	border-color: #0257d5;
+	box-shadow: none
+}
+
+.form-check-input {
+	width: 16px;
+	height: 16px;
+	margin-top: 6px
+}
+.form-login {
+	max-width: 500px;
+	padding: 19px 29px 29px;
+	margin: 0 auto;
+	background-color: #fff;	
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+.form-login .form-login-heading {
+    color:#00A2D1;
+}
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+.body-container {
+	margin-top:110px;
+}
+.navbar-brand {
+	font-family:"Lucida Handwriting";
+}
+#btn-submit{
+	height:45px;
+}

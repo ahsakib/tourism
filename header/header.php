@@ -24,7 +24,7 @@ if(!isset($_SESSION['user_session'])) {
 
 <body>
     <header>
-        <div class="navbar">
+        <div class="navbar postion-relative">
 
             <div class="head">
                 <div class="first_one">

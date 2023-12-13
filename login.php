@@ -10,6 +10,7 @@
 	<title></title>
 
 	<link rel="stylesheet" type="text/css" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="text/javascript" src="script/validation.min.js"></script>
@@ -17,17 +18,11 @@
 </head>    
                
     <body>           
-        
-    
-    
-        
-
-
     <div class="log">  
     
         <div class="full">
         
-            <div class="form">
+            <div class="form d-block h-auto">
                 <div class="logo">
                     <div class="logoimg"></div>
         
@@ -58,33 +53,28 @@
                 <div id="error"></div>
         
                 <form class="form-login" method="post" id="login-form">
-        
-                    <div class="login">
-        
-                        <div class="e-box">
-                            <div class="e-logo"><i class="fa-solid fa-envelope"></i></div>
-                            <input type="email" class="e-text" placeholder="Email address" name="user_email" id="user_email" />
-                        </div>
-        
-                        <div class="pass-box">
-                            <div class="pass-logo"><i class="fa-solid fa-lock"></i></div>
-                            <input type="password" class="pass-text" placeholder="Password" name="password" id="password" />
+                    <div class="p-3">
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email address" name="user_email" id="user_email" />
                         </div>
 
-                        <div class="btn">
-                          <button type="submit" name="login_button" class="submit">Login</button>
+                        <div class="form-group">
+                             <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
+                        </div>
+
+                        <div class="text-center">
+                          <button type="submit" name="login_button" class="btn btn-primary m-0 mt-3">Login</button>
                        </div>
         
                         <div class="msg">
                             <small>Don't have an Account yet?</small>
                             <a href="signup.php">Sign up </a>
                         </div>
-        
                      </div>
                 </div>
                 </form>
          </div>
         </div>
-     </div>  
+     </div> 
     </body>
         </html>

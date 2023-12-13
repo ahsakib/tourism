@@ -38,8 +38,9 @@ $location = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
-		<link rel="stylesheet" type="text/css" href="dhaka.css">
+	<link rel="stylesheet" type="text/css" href="dhaka.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpdYouryknf1YoNbCzqRKc4qyorYourgaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -64,14 +65,14 @@ $location = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
         </div>
 
 
-         <div class="bar">
+         <div class="bar w-auto">
 
             
         	<div class="search-cty">
                 <p>Search Places<p>
             </div>
 
-        <div class="search">
+        <div class="search w-auto">
 
             
         <input type="text" id="search-bar" placeholder="Search your destination....." name="search-bar" onkeyup="hi()">

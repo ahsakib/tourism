@@ -33,8 +33,10 @@ if(isset($_GET['rel_id'])){
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
-		<link rel="stylesheet" type="text/css" href="dklal.css">
+	<link rel="stylesheet" type="text/css" href="dklal.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpdYouryknf1YoNbCzqRKc4qyorYourgaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -42,7 +44,7 @@ if(isset($_GET['rel_id'])){
     <div class="head-img">
     </div>
 
-	<div class="btn">
+	<div class="btn d-flex">
 	<div class="back">
 	<a id="goBack" >Go Back</a>
 </div>
@@ -59,8 +61,8 @@ if(isset($_GET['rel_id'])){
 	<h2><?php print $description['heading'] ?></h2>
 </div>
 
-<div class="">
-    <p><?php print $description['description'] ?></p>
+<div class="p-5">
+    <p ><?php print $description['description'] ?></p>
 </div>
 
 <?php } ?>
